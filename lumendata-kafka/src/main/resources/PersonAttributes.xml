@@ -1,0 +1,199 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<cus:createPerson_Input
+			xmlns:cus="http://xmlns.oracle.com/apps/mdm/customer">
+			<cus:RealtimePubSub>true</cus:RealtimePubSub>
+			<swip:ListOfSwiPersonIO ExternalSystemId="CS"
+				xmlns:swip="http://www.siebel.com/xml/SwiPersonIO">
+				<swip:Contact operation="Upsert">
+					<swip:Id>101881930</swip:Id>
+					<swip:BirthDate>07/02/1988</swip:BirthDate>
+					<swip:EmailAddress>Lin.Cui@Colorado.EDU</swip:EmailAddress>
+					<swip:FirstName>Lin</swip:FirstName>
+					<swip:LastName>Cui</swip:LastName>
+					<swip:HomePhone>3033596612</swip:HomePhone>
+					<swip:MF>M</swip:MF>
+					<swip:MaritalStatus>Single</swip:MaritalStatus>
+					<swip:MaritalStatusDate>09/25/2011</swip:MaritalStatusDate>
+					<swip:VABenefits>N</swip:VABenefits>
+					<swip:PartyUId>50B7FCC7-723E-11e2-A23E-00505691002B</swip:PartyUId>
+					<swip:ListOfContact_CommunicationAddress>
+						<swip:Contact_CommunicationAddress
+							IsPrimaryMVG="Y">
+							<swip:AlternateEmailAddress>Lin.Cui@Colorado.EDU
+							</swip:AlternateEmailAddress>
+							<swip:CommunicationAddressMediumType>Email
+							</swip:CommunicationAddressMediumType>
+							<swip:UseType>Boulder</swip:UseType>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+						</swip:Contact_CommunicationAddress>
+						<swip:Contact_CommunicationAddress
+							IsPrimaryMVG="N">
+							<swip:AlternateEmailAddress>lincui72@yahoo.com
+							</swip:AlternateEmailAddress>
+							<swip:CommunicationAddressMediumType>Email
+							</swip:CommunicationAddressMediumType>
+							<swip:UseType>Pre CU Enrollment</swip:UseType>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+						</swip:Contact_CommunicationAddress>
+					</swip:ListOfContact_CommunicationAddress>
+					<swip:ListOfContact_AlternatePhone>
+						<swip:Contact_AlternatePhone
+							IsPrimaryMVG="Y">
+							<swip:AlternatePhone>3033596612</swip:AlternatePhone>
+							<swip:AlternatePhoneMediumType>Phone
+							</swip:AlternatePhoneMediumType>
+							<swip:UseType>Home</swip:UseType>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+						</swip:Contact_AlternatePhone>
+					</swip:ListOfContact_AlternatePhone>
+					<swip:ListOfCuUcmHeConstituentName>
+						<swip:CuUcmHeConstituentName
+							IsPrimaryMVG="Y">
+							<swip:CountryNameFormat>001</swip:CountryNameFormat>
+							<swip:EffectiveStartDate>09/29/2011 00:00:00
+							</swip:EffectiveStartDate>
+							<swip:FirstName>Lin</swip:FirstName>
+							<swip:LastName>Cui</swip:LastName>
+							<swip:NameType>Primary</swip:NameType>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentName>
+						<swip:CuUcmHeConstituentName
+							IsPrimaryMVG="Y">
+							<swip:CountryNameFormat>001</swip:CountryNameFormat>
+							<swip:EffectiveStartDate>09/28/2011 00:00:00
+							</swip:EffectiveStartDate>
+							<swip:FirstName>Lin</swip:FirstName>
+							<swip:LastName>Cui</swip:LastName>
+							<swip:NameType>Primary</swip:NameType>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentName>
+						<swip:CuUcmHeConstituentName
+							IsPrimaryMVG="Y">
+							<swip:CountryNameFormat>001</swip:CountryNameFormat>
+							<swip:EffectiveStartDate>09/25/2011 00:00:00
+							</swip:EffectiveStartDate>
+							<swip:FirstName>Lin</swip:FirstName>
+							<swip:LastName>Cui</swip:LastName>
+							<swip:NameType>Primary</swip:NameType>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentName>
+					</swip:ListOfCuUcmHeConstituentName>
+					<swip:ListOfCuUcmHeConstituentIdentification />
+					<swip:ListOfCuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="Y">
+							<swip:City>Dalian</swip:City>
+							<swip:Country>China</swip:Country>
+							<swip:HEAddressType>Home</swip:HEAddressType>
+							<swip:PostalCode>116011</swip:PostalCode>
+							<swip:State>21</swip:State>
+							<swip:StreetAddress>81 Road 157k 1-201</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>�</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="N">
+							<swip:City>Dalian</swip:City>
+							<swip:Country>China</swip:Country>
+							<swip:HEAddressType>Home</swip:HEAddressType>
+							<swip:PostalCode>116011</swip:PostalCode>
+							<swip:State>21</swip:State>
+							<swip:StreetAddress>81 Road 157k 1-201</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>�</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="N">
+							<swip:City>Denver</swip:City>
+							<swip:Country>United States</swip:Country>
+							<swip:HEAddressType>Home</swip:HEAddressType>
+							<swip:PostalCode>80210</swip:PostalCode>
+							<swip:State>CO</swip:State>
+							<swip:StreetAddress>2225 Buchtel Blvd #1003</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>2225 Buchtel Blvd #1003
+							</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="N">
+							<swip:City>Boulder</swip:City>
+							<swip:Country>United States</swip:Country>
+							<swip:HEAddressType>Mailing</swip:HEAddressType>
+							<swip:PostalCode>80303</swip:PostalCode>
+							<swip:State>CO</swip:State>
+							<swip:StreetAddress>2950 Bixby Ave #B112</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>�</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="N">
+							<swip:City>Denver</swip:City>
+							<swip:Country>United States</swip:Country>
+							<swip:HEAddressType>Mailing</swip:HEAddressType>
+							<swip:PostalCode>80210</swip:PostalCode>
+							<swip:State>CO</swip:State>
+							<swip:StreetAddress>2225 Buchtel Blvd #1003</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>�</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="N">
+							<swip:City>Boulder</swip:City>
+							<swip:Country>United States</swip:Country>
+							<swip:HEAddressType>Billing</swip:HEAddressType>
+							<swip:PostalCode>80303</swip:PostalCode>
+							<swip:State>CO</swip:State>
+							<swip:StreetAddress>2950 Bizby Ave #B112</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>�</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+						<swip:CuUcmHeConstituentAddress
+							IsPrimaryMVG="N">
+							<swip:City>Boulder</swip:City>
+							<swip:Country>United States</swip:Country>
+							<swip:HEAddressType>Campus</swip:HEAddressType>
+							<swip:PostalCode>80303</swip:PostalCode>
+							<swip:State>CO</swip:State>
+							<swip:StreetAddress>2950 Bixby Ave #B112</swip:StreetAddress>
+							<swip:StreetAddress2>�</swip:StreetAddress2>
+							<swip:StreetAddress3>�</swip:StreetAddress3>
+							<swip:StreetAddress4>�</swip:StreetAddress4>
+							<swip:ASMCountry>United States</swip:ASMCountry>
+							<swip:LogicalDeleteFlg>N</swip:LogicalDeleteFlg>
+							<swip:RecordActiveFlg>A</swip:RecordActiveFlg>
+						</swip:CuUcmHeConstituentAddress>
+					</swip:ListOfCuUcmHeConstituentAddress>
+					<swip:ListOfCuUcmHeConstituentAffiliation />
+				</swip:Contact>
+			</swip:ListOfSwiPersonIO>
+		</cus:createPerson_Input>
+	</soapenv:Body>
+</soapenv:Envelope>

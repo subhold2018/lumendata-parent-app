@@ -1,0 +1,7 @@
+FANNY,FANNY,F
+FRANCES,FANNY,F
+FRANCOISE ,FANNY,F
+STÉPHANIE,FANNY,F
+William,William,M
+Will,William,M
+Bill,William,M
